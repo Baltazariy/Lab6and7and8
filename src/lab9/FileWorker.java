@@ -108,4 +108,8 @@ public class FileWorker {
         }
         fileWriter.close();
     }
+
+    public static long[] loadObjectAsText(String s) {
+        return new long[0];
+    }
 }
