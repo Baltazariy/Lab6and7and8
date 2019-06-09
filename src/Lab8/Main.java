@@ -13,6 +13,9 @@ public class Main {
         } catch (NomerVagonaException e) {
 
             System.out.println(e.getMessage());
+        }catch (KolichestvoPasagirovException e) {
+
+            System.out.println(e.getMessage());
         }
 
     }

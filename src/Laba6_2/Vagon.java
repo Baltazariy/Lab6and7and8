@@ -24,6 +24,9 @@ public class Vagon {
         this.kolichestvoBagaja = kolichestvoBagaja;
         this.nomerVagona = nomerVagona;
     }
+    @Override
+    public String toString() {
+        return getClass().getSimpleName()+"(" + " " + "kolichestvoPasagirov:"+kolichestvoPasagirov+","+ "kolichestvoBagaja:"+ kolichestvoBagaja +","+ "nomerVagona:"+nomerVagona+")";    }
 
     public int getKolichestvoPasagirov() {
         return kolichestvoPasagirov;

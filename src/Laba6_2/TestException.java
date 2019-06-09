@@ -15,4 +15,8 @@ public class TestException {
     public void testCostException() throws NomerVagonaException {
         Vagon vagon = new Plackart(23,-40,"1");
     }
+   /* @Test(expected = NomerVagonaException.class)
+    public void testCapacityException() throws NomerVagonaException {
+        Vagon vagon = new Plackart(80,23,"1");
+    }*/
 }
